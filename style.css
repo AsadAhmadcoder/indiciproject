@@ -1,0 +1,345 @@
+
+/* Importing various google fonts by import url method */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Playfair+Display&family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Raleway:wght@200;300&display=swap');
+
+
+/* By default make hyperlinks grey and upon hover changing the color */
+a{color:grey}
+a:hover {color:rgb(243, 103, 103);}
+
+/* Setting font color for all links selected via span */
+.current{
+    color:rgb(243, 103, 103);    
+}
+
+/* Setting margin in body for all pages to 0px to align the pages symmetrically */
+body{
+    margin: 0px;
+}
+
+/* wildcard used for border and text styling */
+* {
+box-sizing: border-box;
+text-decoration: none;
+}
+
+/* Container class defines the page layout for index.html, contact.html & contactusThankyou.html pages */
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container2 class defines the page layout for features_services.html page */
+.container2 {
+    width: 100%;
+    height: 325vh;
+    /* background-color:lightblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.heading {
+    color:darkgray;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    padding-left: 0%;
+    text-align: justify;   
+}
+
+/* Heading id is used for all pages to display Indici Product layout and style */
+#heading{
+   
+    color:rgb(243, 103, 103);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+/* Heading3 id used for headings layout and styling in contact us pages */
+#heading3{
+    
+    color:black;
+    font-size: 35px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+    
+}
+
+/* Subheading class heading layout used for all pages for styling layout */
+.subheading{
+    color:dimgray;
+    font-size: 30px;
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;    
+}
+
+/* Subheading3 class heading layout is to style heading and listed information on all pages of Indici website */
+.subheading3{
+    color:rgb(189, 166, 166);
+    font-size: 15px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Subheading4 class heading layout is used to style heading, content and form on contact pages of Indici website */
+.subheading4{
+    color:rgb(189, 166, 166);
+    font-size: 18px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Links class layout is used to style main links of the website under navbar class for index.html */
+.links {
+    width: 30%;
+    height:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+} 
+
+/* Links2 class layout is used to style main links of the website under navbar class for feature_services.html */
+.links2 {
+    width: 30%;
+    height:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+} 
+
+/* Links3 class layout is used to style main links of the website under navbar class for contact and contactusThankyou.html */
+.links3 {
+    width: 30%;
+    height:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+} 
+
+/* sublinks class layout is used to style sub links of links on feature_services.html under navbar class */
+.sublinks {
+    
+    width: 80%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left:20%;
+    font-family: 'Raleway', sans-serif;  
+}
+
+/* Navbar class layout is used to style navigation bar for index.html */
+.navbar {
+    width:66%;
+    height: 10%;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+    margin:0px;
+}    
+
+/* Navbar2 class layout is used to style navigation bar for features_services.html */
+.navbar2 {
+    width:66%;
+    height: 03%;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:center;
+    margin:0px;
+        
+}
+
+/* Navbar3 class layout is used to style navigation bar for contact.html & contactusThankyou.html */
+.navbar3 {
+    width:66%;
+    height: 10%;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+    margin:0px;      
+}
+
+/* Navbarsub class layout is used to style sub navigation bar for features_services.html */
+.navbarsub {
+    width: 66%;
+    height: 03%;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px;
+    margin-bottom: 1%;
+}
+
+/* Navbarsub3 class layout is used to style sub navigation bar for contact.html & contactusThankyou.html */
+.navbarsub3 {
+    width: 66%;
+    height: 20%;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px;
+    margin-bottom: 1%;
+}
+
+/* Imagebox class is styling and customizing formatting for the images used in index.html     */
+.imagebox {
+    width: 66%;
+    height: 66%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin:0px;
+}
+
+/* Imagebox3 class is styling and customizing display formatting for the images used in features_services.html, contact.html and contactusThankyou.html     */
+.imagebox3 {
+    width: 66%;
+    height: 60%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Contentbox class is styling and customizing display content for contentbox, subcontent and subsubcontent in index.html  */
+.contentbox {
+    width: 66%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Subcontent class is styling and customizing display content for subcontent and subsubcontent in index.html  */
+.subcontent {
+    height: 95%;
+    width: 95%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+}
+
+
+/* Subsubcontent class is styling and customizing display content for subsubcontent in index.html  */
+.subsubcontent {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    color:rgb(173, 155, 155);
+    text-align: justify;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+
+/* Subcontent2 class is styling and customizing display content for subcontent2 and subsubcontent2 in features_services.html  */
+.subcontent2 {
+    height: 100%;
+    width: 66%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin:0px;
+}
+
+/* Subsubcontent2 class is styling and customizing display content for subsubcontent2 in features_services.html  */
+.subsubcontent2 {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    color:dimgray;
+    flex-direction: column;
+    justify-content: justify;
+    font-family: 'Nunito', sans-serif;  
+}
+
+/* Subcontent3 class is styling and customizing display content for subcontent3 and subsubcontent3 in contact.html & contactusThankyou.html  */
+.subcontent3 {
+    height: 100%;
+    width: 66%;
+    display:flex;
+    justify-content: justify;
+    flex-direction: row;
+    font-family: 'Quicksand', sans-serif;
+    word-spacing: 1px;
+}
+
+/* Subsubcontent3 class is styling and customizing display content for subsubcontent3 in contact.html & contactusThankyou.html  */
+.subsubcontent3 {
+    width: 40%;
+    height:100%;
+    display: flex;
+    color:dimgray;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: flex-start;
+    margin:0px;
+    
+}
+
+/* Subsubcontent5 class is styling and customizing display content for subsubcontent3 in contact.html & contactusThankyou.html  */
+.subsubcontent5 {
+    width: 60%;
+    height:100%;
+    display: flex;
+    color:dimgray;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0px;
+    font-size: 12px;
+}
+
+/* Subsubcontent4 class is styling and customizing display content for subsubcontent4 in feature_services.html  */
+.subsubcontent4 {
+    width: 10%;
+    height: 50%;
+    color:dimgray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: 'Amiri', serif;
+    margin:0px;
+    
+}
+
+/* footer class is styling and customizing display content for footer in all pages of index.html, feature_services.html, contact.html & contactusThankyou.html  */
+.footer {
+        width: 66%;
+        height: 5%;
+        color:rgb(189, 166, 166);
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        align-items: center;
+        margin: 0px;
+    }
